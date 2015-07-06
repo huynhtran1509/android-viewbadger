@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+}
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+    defaultConfig {
+        minSdkVersion 4
+        targetSdkVersion 22
+    }
+}
+
